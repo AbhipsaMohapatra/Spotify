@@ -1,0 +1,38 @@
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.rounded{
+    border-radius:7px;
+}
+.m-1{
+    margin:5px;
+}
+.p-1{
+    padding:5px;
+}
+/* General scrollbar styles for WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #000; /* Background color of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #444; /* Background color of the scrollbar thumb */
+    border-radius: 6px; /* Rounded corners for the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #666; /* Color of the scrollbar thumb when hovered */
+  }
+  
+
+  
